@@ -23,6 +23,7 @@ GLUON_SITE_PACKAGES := \
 	ffe-ath9k-blackout-workaround \
 	ffe-wifi-blackout-workaround \
 	ffe-autoupdater-wifi-fallback \
+	ffe-respondd-workaround \
         gluon-setup-mode \
         gluon-status-page \
         iwinfo \
