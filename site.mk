@@ -20,14 +20,13 @@ GLUON_SITE_PACKAGES := \
         gluon-next-node \
         gluon-mesh-vpn-fastd \
         gluon-radvd \
-        gluon-announced \
+        gluon-respondd \
         gluon-status-page \
-	ffe-autoupdater-wifi-fallback \
         iwinfo \
         iptables \
         haveged
 
-DEFAULT_GLUON_RELEASE := 7.1.2-1
+DEFAULT_GLUON_RELEASE := 20170331-pbb
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
